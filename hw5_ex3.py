@@ -99,7 +99,7 @@ def measure_search_time(func, text, pattern):
 if __name__ == "__main__":
 
     existing_substring = "рекомендаційні системи"
-    nonexistent_substring = "абабагаламага"
+    nonexistent_substring = "експоненціальний пошук"
 
     patterns = [existing_substring, nonexistent_substring]
     functions = [kmp_search, boyer_moore_search, rabin_karp_search]
